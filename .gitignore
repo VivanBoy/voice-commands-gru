@@ -1,0 +1,27 @@
+# Python / cache
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Virtual env
+.venv/
+
+# Gradio logs
+.gradio_flagged/
+
+# Dataset lourd
+data/raw/
+*.tar.gz
+*.zip
+
+# Outputs (optionnel)
+outputs/
+*.png
+
+# Editor
+.vscode/
+.DS_Store
+
+.gradio/
+.gradio_flagged/
+*.pdf
