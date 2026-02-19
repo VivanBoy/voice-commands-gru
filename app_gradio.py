@@ -1,10 +1,3 @@
-# app_gradio.py
-# Démo Keyword Spotting (Speech Commands) avec Gradio
-# - Prend une entrée micro OU upload
-# - Convertit en mono, resample 16kHz
-# - Sélectionne automatiquement la fenêtre de 1 seconde la plus "parlée" (énergie RMS max)
-# - Extrait MFCC (97x40), normalise (mu/sigma), prédit Top-5
-
 import numpy as np
 import librosa
 import gradio as gr
