@@ -25,3 +25,6 @@ outputs/
 .gradio/
 .gradio_flagged/
 *.pdf
+
+.venv/
+data/processed/speech_mfcc40_T97.npz
