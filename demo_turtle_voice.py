@@ -17,7 +17,7 @@ import turtle
 ROOT = Path(".").resolve()
 MODEL_PATH = ROOT / "models" / "gru_speech_commands.keras"
 PROCESSED_DIR = ROOT / "data" / "processed"
-NPZ_PATH = PROCESSED_DIR / "speech_mfcc40_T97.npz"
+NPZ_PATH = DATA_PROCESSED / "stats_mfcc40_T97.npz"
 
 if not MODEL_PATH.exists():
     raise FileNotFoundError(f"Model not found: {MODEL_PATH}")
